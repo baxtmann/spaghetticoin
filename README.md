@@ -3,22 +3,22 @@ Spaghetti Coin is a cryptocurrency that is based on the scrypt algorithim. To as
 
 To start Mining:
 
-Download the wallet <a href="github.com/baxtmann/spaghetti-qt-windows.exe">Here</a>
+Download the wallet <a href="https://github.com/baxtmann/spaghetticoin/raw/master/spaghetti-qt.exe">Here</a>
 Next, Launch the wallet, let it run for about 30 seconds, and then close it again.
 Once you have closed it, go to your C drive, then users, then your username, then, appdata, then roaming, and find the folder named spaghetti coin. Once you get to there, create a file called "spaghetti.conf"
 
 Inside that file create the following commands: 
 
 **Make sure to remember your username and password!**
-
-rpcuser=YOUR_USERNAME
-rpcpassword=YOUR_PASSWORD
-rpcallowip=127.0.0.1
-rpcport=4210
-listen=1
-server=1
-addnode=node.walletbuilders.com
-
+<br>
+<br>rpcuser=YOUR_USERNAME
+<br>rpcpassword=YOUR_PASSWORD
+<br>rpcallowip=127.0.0.1
+<br>rpcport=4210
+<br>listen=1
+<br>server=1
+<br>addnode=node.walletbuilders.com
+<br>
 Then, click save on the file and close it. Now we will set up the miner.
 
 1. Download the miner: <a href="https://github.com/baxtmann/spaghetticoin/raw/master/pooler-cpuminer-2.5.0-win64.zip">Here</a>
